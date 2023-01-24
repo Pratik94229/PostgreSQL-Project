@@ -1,3 +1,32 @@
+CREATE TABLE IF NOT EXISTS store (
+Row_ID SERIAL,
+Order_ID CHAR(25),
+Order_Date DATE,
+Ship_Date DATE,
+Ship_Mode VARCHAR(50),
+Customer_ID CHAR(25),
+Customer_Name VARCHAR(75),
+Segment VARCHAR(25),
+Country VARCHAR(50),
+City VARCHAR(50),
+States VARCHAR(50),
+Postal_Code INT,
+Region VARCHAR(12),
+Product_ID VARCHAR(75),
+Category VARCHAR(25),
+Sub_Category VARCHAR(25),
+Product_Name VARCHAR(255),
+Sales FLOAT,
+Quantity INT,
+Discount FLOAT,
+Profit FLOAT,
+Discount_amount FLOAT,
+Years INT,
+Customer_Duration VARCHAR(50),
+Returned_Items VARCHAR(50),
+Return_Reason VARCHAR(255)
+) 
+
 SET datestyle to german
 show datestyle
 SET client_encoding = 'ISO_8859_5';
