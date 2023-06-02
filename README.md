@@ -1,4 +1,6 @@
-# This repository contains the code and analysis for a PostgreSQL project on a superstore dataset. The dataset consists of various columns representing different aspects of customer orders and products. The following is a description of the dataset columns:
+# This repository contains the code and analysis for a PostgreSQL project on a superstore dataset. 
+
+### The dataset consists of various columns representing different aspects of customer orders and products. The following is a description of the dataset columns:
 
     1) Customer_Name: Customer's Name
     2) Customer_Id: Unique ID of Customers
